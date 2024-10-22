@@ -2,7 +2,9 @@
     background-color: white;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px
+    font-size: 18px;
+    box-sizing: content-box;
+    background-color: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,4 +45,22 @@ li > a {
 
 li {
     text-wrap: pretty;
+}
+
+.top-bar {
+    font-size: 30px;
+    border: 3px solid black;
+    padding-left: 1em;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+
+.content-box {
+    border: 3px solid black;
+    padding-left: 1em;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
 }
