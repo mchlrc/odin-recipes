@@ -1,2 +1,3 @@
-# odin-recipes
-This is the first project in The Odin Project that consists of writing a recipe website.
+# my-recipes-site
+
+This is a static site for recipes.
